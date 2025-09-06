@@ -93,7 +93,7 @@ export default function ContactPage() {
     if (status.message) {
       const timer = setTimeout(
         () => setStatus({ type: "", message: "" }),
-        4000
+        15000
       );
       return () => clearTimeout(timer);
     }
