@@ -10,23 +10,22 @@ export const siteConfig = {
   contact: [
     {
       country: "Saudi Arabia",
-      flag: "🇸🇦",
+      code: "SA",
       phone: "(+966) 53 204 2226",
       whatsapp: "966532042226",
       email: "sales@ajabtech.com",
       address: "Abi Tahir Al Dhahabi St, Al Mutamarat, Riyadh 12711",
-      coordinates: { lat: 24.7136, lng: 46.6753 },
     },
     {
       country: "India",
-      flag: "🇮🇳",
+      code: "IN",
       phone: "(+91) 705 766 4666",
       email: "sales@ajabtech.com",
       address: "Kondhwa, Pune 411048, Maharashtra, India",
     },
     {
       country: "Egypt",
-      flag: "🇪🇬",
+      code: "EG",
       phone: "(+20) 11 0204 7222",
       email: "sales@ajabtech.com",
       address: "Nasr City, Cairo, Egypt",

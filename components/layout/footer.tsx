@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ReactCountryFlag from "react-country-flag";
+
 import {
   Phone,
   Mail,
@@ -174,9 +176,22 @@ export function Footer() {
                   )}
 
                   <div className="flex items-center mb-2">
-                    <span className="text-xl mr-2">{location.flag}</span>
-                    <h4 className="font-semibold text-slate-900 text-sm">{location.country}</h4>
+                    <ReactCountryFlag
+                      countryCode={location.code}
+                      svg
+                      style={{
+                        width: "1.5em",
+                        height: "1.5em",
+                        marginRight: "0.5rem",
+                        borderRadius: "3px",
+                      }}
+                      title={location.country}
+                    />
+                    <h4 className="font-semibold text-slate-900 text-sm">
+                      {location.country}
+                    </h4>
                   </div>
+
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <div className="p-1.5 rounded-md bg-blue-100/80 mt-0.5">

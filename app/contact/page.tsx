@@ -15,6 +15,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, MessageSquare } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import ReactCountryFlag from "react-country-flag";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -279,7 +280,12 @@ export default function ContactPage() {
                   className="space-y-3 border-b border-gray-200 pb-4 last:border-b-0"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-2xl">{office.flag}</span>
+                    {/* ReactCountryFlag replaces emoji */}
+                    <ReactCountryFlag
+                      countryCode={office.code}
+                      svg
+                      style={{ fontSize: "2em", lineHeight: "1.5em" }}
+                    />
                     <h3 className="text-xl font-semibold text-gray-900">
                       {office.country}
                     </h3>
