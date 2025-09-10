@@ -505,21 +505,16 @@ const CybersecurityServicesPage = () => {
           />
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+
             <motion.div
               className="text-center mb-16"
               {...useScrollAnimation()}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-6">
-                Aligned with Saudi Vision 2030
+              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-4">
+                Why Work With <span className="text-blue-600">AJAB?</span>
               </h2>
-              <p className="text-lg text-slate-600 max-w-4xl mx-auto font-light leading-relaxed">
-                We support the Kingdom's Vision 2030 goals by enabling secure
-                digital government, smart cities, e-commerce, and industrial
-                modernization through robust cybersecurity frameworks.
-              </p>
             </motion.div>
-
             <motion.div
               className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
               {...useScrollAnimation()}
@@ -588,9 +583,14 @@ const CybersecurityServicesPage = () => {
               {...useScrollAnimation()}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-4">
-                Why Work With <span className="text-blue-600">AJAB?</span>
+              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-6">
+                Aligned with Saudi Vision 2030
               </h2>
+              <p className="text-lg text-slate-600 max-w-4xl mx-auto font-light leading-relaxed">
+                We support the Kingdom's Vision 2030 goals by enabling secure
+                digital government, smart cities, e-commerce, and industrial
+                modernization through robust cybersecurity frameworks.
+              </p>
             </motion.div>
 
             {/* Full-Width Image */}
