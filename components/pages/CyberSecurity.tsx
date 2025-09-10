@@ -504,53 +504,10 @@ const CybersecurityServicesPage = () => {
             }}
           />
 
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 
-            <motion.div
-              className="text-center mb-16"
-              {...useScrollAnimation()}
-              variants={fadeInUp}
-            >
-              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-4">
-                Why Work With <span className="text-blue-600">AJAB?</span>
-              </h2>
-            </motion.div>
-            <motion.div
-              className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
-              {...useScrollAnimation()}
-              variants={staggerChildren}
-            >
-              {whyChooseUs.map((item, index) => (
-                <motion.div
-                  key={item.title}
-                  className="group"
-                  variants={fadeInUp}
-                  whileHover={{ y: -5 }}
-                >
-                  <div className="bg-white p-8 rounded-xl border border-slate-100 hover:border-blue-200 hover:shadow-lg transition-all duration-500 h-full">
-                    <div className="flex flex-col items-center text-center">
-                      <motion.div
-                        className="w-16 h-16 bg-gradient-to-br from-blue-100 to-sky-100 rounded-xl flex items-center justify-center mb-4"
-                        whileHover={{ scale: 1.1, rotate: 5 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <item.icon className="w-8 h-8 text-blue-600" />
-                      </motion.div>
-                      <h3 className="text-lg font-medium text-slate-900 mb-3">
-                        {item.title}
-                      </h3>
-                      <p className="text-sm text-slate-600 font-light leading-relaxed">
-                        {item.description}
-                      </p>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
         </section>
 
-        {/* Why Choose Us Section */}
+
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
@@ -635,6 +592,53 @@ const CybersecurityServicesPage = () => {
             </motion.div>
 
 
+          </div>
+        </section>
+        {/* Why Choose Us Section */}
+        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 relative overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+
+            <motion.div
+              className="text-center mb-16"
+              {...useScrollAnimation()}
+              variants={fadeInUp}
+            >
+              <h2 className="text-3xl sm:text-4xl font-light text-slate-900 mb-4">
+                Why Work With <span className="text-blue-600">AJAB?</span>
+              </h2>
+            </motion.div>
+            <motion.div
+              className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+              {...useScrollAnimation()}
+              variants={staggerChildren}
+            >
+              {whyChooseUs.map((item, index) => (
+                <motion.div
+                  key={item.title}
+                  className="group"
+                  variants={fadeInUp}
+                  whileHover={{ y: -5 }}
+                >
+                  <div className="bg-white p-8 rounded-xl border border-slate-100 hover:border-blue-200 hover:shadow-lg transition-all duration-500 h-full">
+                    <div className="flex flex-col items-center text-center">
+                      <motion.div
+                        className="w-16 h-16 bg-gradient-to-br from-blue-100 to-sky-100 rounded-xl flex items-center justify-center mb-4"
+                        whileHover={{ scale: 1.1, rotate: 5 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <item.icon className="w-8 h-8 text-blue-600" />
+                      </motion.div>
+                      <h3 className="text-lg font-medium text-slate-900 mb-3">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-slate-600 font-light leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </motion.div>
           </div>
         </section>
 
