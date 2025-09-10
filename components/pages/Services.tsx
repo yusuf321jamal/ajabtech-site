@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -180,20 +181,31 @@ export default function ServicesPage() {
                             <h3 className="text-lg font-normal text-blue-800">
                               Technologies We Use
                             </h3>
-                            <div className="flex flex-wrap gap-2">
-                              {service.technologies.map(
-                                (tech: string, idx: number) => (
-                                  <span
-                                    key={idx}
-                                    className="px-3 py-1.5 bg-white border border-blue-200 text-blue-700 text-sm font-normal rounded hover:bg-blue-50 hover:border-blue-300 transition-all duration-300 shadow-sm"
-                                  >
-                                    {tech}
-                                  </span>
-                                )
-                              )}
+                            <div className="flex flex-wrap gap-4">
+                              {service.technologies.map((tech, idx) => (
+                                <div
+                                  key={idx}
+                                  className="relative aspect-[2/1] bg-white rounded-lg border border-gray-200 p-1 flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer overflow-hidden group"
+                                >
+                                  {/* Logo */}
+                                  <div className="w-full h-full bg-slate-100 rounded-md flex items-center justify-center overflow-hidden">
+                                    <Image
+                                      src={tech.logo}
+                                      alt={tech.name}
+                                      width={90}
+                                      height={90}
+                                      className="object-contain max-w-[90%] max-h-[90%] drop-shadow-md"
+                                    />
+                                  </div>
+
+                                  {/* Hover overlay */}
+                                  <div className="absolute inset-0 bg-blue-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                </div>
+                              ))}
                             </div>
                           </div>
                         )}
+
 
                         {/* CTA Button */}
                         <div className="pt-6">
@@ -282,7 +294,7 @@ export default function ServicesPage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border border-white/30 text-white hover:bg-white/5 backdrop-blur-sm px-6 py-2.5 rounded shadow-md hover:shadow-lg transform hover:scale-[1.01] transition-all duration-300 font-normal"
+                className="border border-white/30 text-blue-800 hover:bg-white/5 backdrop-blur-sm px-6 py-2.5 rounded shadow-md hover:shadow-lg transform hover:scale-[1.01] transition-all duration-300 font-normal"
               >
                 <Link href="/about">Learn More</Link>
               </Button>

@@ -181,11 +181,24 @@ export const siteConfig = {
         "Accelerate growth and optimize costs with trusted frameworks"
       ],
       technologies: [
-        "GCP",
-        "AWS",
-        "Azure",
-        "Oracle OCI"
+        {
+          name: "GCP",
+          logo: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+        },
+        {
+          name: "AWS",
+          logo: "https://cdn.brandfetch.io/idVoqFQ-78/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1691083841257"
+        },
+        {
+          name: "Azure",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Oracle OCI",
+          logo: "https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg"
+        }
       ],
+
     },
     {
       id: "digital-transformation-scale",
@@ -213,14 +226,24 @@ export const siteConfig = {
         "Future-ready organization resilient to disruption and innovation-driven"
       ],
       technologies: [
-        "ERP (SAP, Oracle, Microsoft Dynamics)",
-        "CRM Platforms (Salesforce, HubSpot)",
-        "HRMS & Automation Tools",
-        "Cloud Platforms (Azure, AWS, GCP)",
-        "Data & AI Platforms (Databricks, Snowflake, Power BI)",
-        "Cybersecurity Solutions",
-        "Agile & DevOps Frameworks"
+        {
+          name: "Oracle",
+          logo: "https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg"
+        },
+        {
+          name: "Salesforce",
+          logo: "https://www.vectorlogo.zone/logos/salesforce/salesforce-icon.svg"
+        },
+        {
+          name: "Azure",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "AWS",
+          logo: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+        }
       ],
+
     }
 
     ,
@@ -247,13 +270,32 @@ export const siteConfig = {
         "Scalable & Secure infrastructure",
       ],
       technologies: [
-        "AWS",
-        "Microsoft Azure",
-        "Google Cloud",
-        "Kubernetes",
-        "Docker",
-        "Terraform",
+        {
+          name: "AWS",
+          logo: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+        },
+        {
+          name: "Microsoft Azure",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Google Cloud",
+          logo: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+        },
+        {
+          name: "Kubernetes",
+          logo: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"
+        },
+        {
+          name: "Docker",
+          logo: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg"
+        },
+        {
+          name: "Terraform",
+          logo: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg"
+        }
       ],
+
     },
     {
       id: "data-analytics-ai",
@@ -279,13 +321,32 @@ export const siteConfig = {
         "Tools you trust: Azure AI, Databricks, Microsoft Fabric",
       ],
       technologies: [
-        "Azure AI",
-        "Databricks",
-        "Power BI",
-        "Snowflake",
-        "Python",
-        "TensorFlow",
+        {
+          name: "Azure AI",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Databricks",
+          logo: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg"
+        },
+        {
+          name: "Power BI",
+          logo: "https://cdn.worldvectorlogo.com/logos/power-bi.svg"
+        },
+        {
+          name: "Snowflake",
+          logo: "https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg"
+        },
+        {
+          name: "Python",
+          logo: "https://www.vectorlogo.zone/logos/python/python-icon.svg"
+        },
+        {
+          name: "TensorFlow",
+          logo: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+        }
       ],
+
     },
 
     {
@@ -311,13 +372,32 @@ export const siteConfig = {
         "Committed to Saudi Arabia's secure digital future",
       ],
       technologies: [
-        "Azure Sentinel",
-        "Fortinet",
-        "Splunk",
-        "Okta",
-        "CrowdStrike",
-        "Palo Alto",
+        {
+          name: "Azure Sentinel",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Fortinet",
+          logo: "https://www.fortinet.com/content/dam/fortinet/images/general/fortinet-logo.svg"
+        },
+        {
+          name: "Splunk",
+          logo: "https://www.splunk.com/content/dam/splunk2/en_us/images/icon-library/footer/logo-splunk-corp-rgb-k-web.svg"
+        },
+        {
+          name: "Okta",
+          logo: "https://www.vectorlogo.zone/logos/okta/okta-icon.svg"
+        },
+        {
+          name: "CrowdStrike",
+          logo: "https://assets.crowdstrike.com/is/content/crowdstrikeinc/black-primary-crowdstrike-logo-1-addedPadding-3?ts=1756311905040&dpr=off"
+        },
+        {
+          name: "Palo Alto",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKhdZ-6njdySOSt4oU34jbT0awichiLS__0w&s"
+        }
       ],
+
     },
     {
       id: "industry-4-0",
@@ -342,13 +422,29 @@ export const siteConfig = {
         "Scalable: from pilot projects to full enterprise rollout",
       ],
       technologies: [
-        "Azure IoT",
-        "AWS Greengrass",
-        "OPC UA",
-        "Modbus",
-        "Power BI",
-        "Databricks",
+        {
+          name: "Azure IoT",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "AWS Greengrass",
+          logo: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+        },
+
+        {
+          name: "Modbus",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Logo_of_Modbus.svg/2560px-Logo_of_Modbus.svg.png"
+        },
+        {
+          name: "Power BI",
+          logo: "https://cdn.worldvectorlogo.com/logos/power-bi.svg"
+        },
+        {
+          name: "Databricks",
+          logo: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg"
+        }
       ],
+
     },
     {
       id: "it-talent-training",
@@ -373,12 +469,28 @@ export const siteConfig = {
         "Bilingual (Arabic/English) training content and support",
       ],
       technologies: [
-        "Microsoft Learn",
-        "AWS Training",
-        "Google Cloud Skills",
-        "Coursera",
-        "Udemy",
+        {
+          name: "Microsoft Learn",
+          logo: "https://learn.microsoft.com/favicon.ico"
+        },
+        {
+          name: "AWS Training",
+          logo: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+        },
+        {
+          name: "Google Cloud Skills",
+          logo: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+        },
+        {
+          name: "Coursera",
+          logo: "https://www.vectorlogo.zone/logos/coursera/coursera-icon.svg"
+        },
+        {
+          name: "Udemy",
+          logo: "https://www.vectorlogo.zone/logos/udemy/udemy-icon.svg"
+        }
       ],
+
     },
     {
       id: "erp-solutions",
@@ -403,12 +515,28 @@ export const siteConfig = {
         "Strong partner ecosystem for integrations",
       ],
       technologies: [
-        "Microsoft Dynamics 365",
-        "SAP S/4HANA",
-        "Oracle",
-        "Odoo",
-        "Power Platform",
+        {
+          name: "Microsoft Dynamics 365",
+          logo: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg"
+        },
+        {
+          name: "SAP S/4HANA",
+          logo: "https://www.vectorlogo.zone/logos/sap/sap-icon.svg"
+        },
+        {
+          name: "Oracle",
+          logo: "https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg"
+        },
+        {
+          name: "Odoo",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAaz4RjOBiXxvwPRbwOiIJ885zCEfjQtJU-Q&s"
+        },
+        {
+          name: "Power Platform",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpHQRP1Bc7mWFvoMpXsirpO7tx8GlgVswxA&s"
+        }
       ],
+
     },
     {
       id: "crm-integration-bi",
@@ -433,12 +561,28 @@ export const siteConfig = {
         "Security, scalability, and compliance built-in",
       ],
       technologies: [
-        "Dynamics 365",
-        "Salesforce",
-        "Power BI",
-        "Azure API Management",
-        "Tableau",
+        {
+          name: "Dynamics 365",
+          logo: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg"
+        },
+        {
+          name: "Salesforce",
+          logo: "https://www.vectorlogo.zone/logos/salesforce/salesforce-icon.svg"
+        },
+        {
+          name: "Power BI",
+          logo: "https://cdn.worldvectorlogo.com/logos/power-bi.svg"
+        },
+        {
+          name: "Azure API Management",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Tableau",
+          logo: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo.png"
+        }
       ],
+
     },
     {
       id: "information-management-itsm",
@@ -463,13 +607,33 @@ export const siteConfig = {
         "Scalable for small teams or enterprise-level operations",
       ],
       technologies: [
-        "ServiceNow",
-        "SharePoint",
-        "M-Files",
-        "ManageEngine",
-        "Azure",
-        "Office 365",
+        {
+          name: "ServiceNow",
+          logo: "https://www.vectorlogo.zone/logos/servicenow/servicenow-icon.svg"
+        },
+        {
+          name: "SharePoint",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Q0oYsmLeZPUFUn6PHpEopKSa4_gUM5xA_g&s"
+        },
+        {
+          name: "M-Files",
+          logo: "https://www.m-files.com/wp-content/uploads/2025/07/M-Files-Logo.svg"
+
+        },
+        {
+          name: "ManageEngine",
+          logo: "https://www.manageengine.com/images/logo/manageengine-logo.svg"
+        },
+        {
+          name: "Azure",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Office 365",
+          logo: "https://www.vectorlogo.zone/logos/microsoft/microsoft-icon.svg"
+        }
       ],
+
     },
     {
       id: "qhse-digital",
@@ -494,13 +658,32 @@ export const siteConfig = {
         "Sector-specific expertise: oil & gas, construction, logistics",
       ],
       technologies: [
-        "Power Apps",
-        "SharePoint",
-        "Azure IoT",
-        "Power BI",
-        "Teams",
-        "Forms",
+        {
+          name: "Power Apps",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAjqpPigcdWEZ2JitcVUKJ1gq6Wm8X4BHdg&s"
+        },
+        {
+          name: "SharePoint",
+          logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Q0oYsmLeZPUFUn6PHpEopKSa4_gUM5xA_g&s"
+        },
+        {
+          name: "Azure IoT",
+          logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg"
+        },
+        {
+          name: "Power BI",
+          logo: "https://cdn.worldvectorlogo.com/logos/power-bi.svg"
+        },
+        {
+          name: "Teams",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+        },
+        {
+          name: "Forms",
+          logo: "https://img.icons8.com/color/512/microsoft-forms.png"
+        }
       ],
+
     },
 
   ],
