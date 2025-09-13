@@ -353,9 +353,11 @@ const DigitalTransformationPage = () => {
               Unlock the full potential of digital transformation. Let's modernize your operations, innovate with AI, and scale your business securely and strategically.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-white text-blue-600 font-medium rounded-lg hover:bg-blue-50 transition-colors duration-300 shadow-lg">
-                Schedule Consultation
-              </button>
+              <Link href="/contact">
+                <button className="px-8 py-4 bg-white text-blue-600 font-medium rounded-lg hover:bg-blue-50 transition-colors duration-300 shadow-lg">
+                  Schedule Consultation
+                </button>
+              </Link>
               <button className="px-8 py-4 border-2 border-white text-white font-medium rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300">
                 Download Transformation Guide
               </button>

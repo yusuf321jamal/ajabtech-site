@@ -697,15 +697,17 @@ const CybersecurityServicesPage = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
               >
-                <motion.button
-                  className="px-8 py-4 bg-white text-blue-600 font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group overflow-hidden relative"
-                  variants={fadeInUp}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  <motion.div className="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <span className="relative">Get Security Assessment</span>
-                </motion.button>
+                <Link href="/contact">
+                  <motion.button
+                    className="px-8 py-4 bg-white text-blue-600 font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group overflow-hidden relative"
+                    variants={fadeInUp}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    <motion.div className="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <span className="relative">Get Security Assessment</span>
+                  </motion.button>
+                </Link>
 
                 <motion.button
                   className="px-8 py-4 border-2 border-white text-white font-medium rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-300"

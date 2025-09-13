@@ -15,7 +15,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, MessageSquare } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import ReactCountryFlag from "react-country-flag";
+import dynamic from "next/dynamic";
+
+const ReactCountryFlag = dynamic(() => import("react-country-flag"), {
+  ssr: false,
+});
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

@@ -363,9 +363,11 @@ const Industry40Page = () => {
               autonomous manufacturing operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-white text-blue-600 text-sm font-medium rounded-sm hover:bg-blue-50 transition-colors duration-300">
-                Schedule Consultation
-              </button>
+              <Link href="/contact">
+                <button className="px-8 py-3 bg-white text-blue-600 text-sm font-medium rounded-sm hover:bg-blue-50 transition-colors duration-300">
+                  Schedule Consultation
+                </button>
+              </Link>
               <button className="px-8 py-3 border border-white text-white text-sm font-medium rounded-sm hover:bg-white hover:text-blue-600 transition-colors duration-300">
                 Download Brochure
               </button>

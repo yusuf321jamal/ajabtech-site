@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import ReactCountryFlag from "react-country-flag";
+import dynamic from "next/dynamic";
+
+const ReactCountryFlag = dynamic(() => import("react-country-flag"), {
+  ssr: false,
+})
 
 import {
   Phone,
